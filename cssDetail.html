@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Detail</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="courseDetail.css">
+</head>
+<body>
+  <!--navigation bar-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!-- Brand -->
+    <a id="centerName" class="navbar-brand" href="home.html">ABC Learning Center</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="course.html">Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br><br>
+  <!--course detail-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Document</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section4">Learning Journey</a>
+      </li>
+    </ul>
+  </nav><br>
+  <h1 style="text-align: center;">CSS</h1>
+  <!--Intro-->
+  <div class="container" id="section1">
+    <div class="row">
+      <div class="col-sm-8">
+        <h5><u>Course Introduction</u></h5>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written 
+            in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).
+            CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+        <p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. 
+            This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; 
+            enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, 
+            which reduces complexity and repetition in the structural content; 
+            and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+      </div>
+      <div class="col-sm-4">
+        <h5><u>Price</u></h5>
+        <div class="card">
+          <img class="card-img-top" src="css.webp" alt="default" width="100%">
+          <div class="card-body">
+            <h4 class="card-title">CSS</h4>
+            <hr>
+            <p class="card-text"><i class="fa-solid fa-coins"></i> <b>Course Price: </b>150 USD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div><br>
+  <!--document-->
+  <div class="container" id="section2">
+    <h5><u>Document</u></h5><br>
+    <center>
+      <iframe src="IU6-Content.pdf">
+      </iframe>
+    </center>
+    <br>
+  </div>
+    <!--
+      <div class="container-fluid">
+    <h5><u>Document</u></h5><br>
+    <div class="docIframeContainer">
+      <iframe src="IU6-Content.pdf" class="responsiveDocIframe"></iframe>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 offset-2">
+        <div class="docIframeContainer">
+          <iframe src="IU6-Content.pdf" class="responsiveDocIframe"></iframe>
+        </div>
+      </div>
+    </div>-->
+         
+<br>
+  </div>
+  <!--vedio-->
+  <div class="container" id="section3">
+    <h5><u>Video</u></h5><br>
+    <center><iframe id="video" src="//www.youtube.com/embed/1PnVor36_40" frameborder="0" allowfullscreen></iframe>
+    </center>
+    <hr>
+  </div><br>
+  <div class="container" id="section4">
+    <h5><u>Learning Journey</u></h5><br>
+    <center>
+      <iframe src="BDSE_learning journey_V3.0.pdf">
+      </iframe>
+    </center>
+    <br>
+  </div>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h6>ABC Learning Center</h6>
+          <p class="text-justify" style="font-size: small;">Learn Programming for future.</p>
+        </div>
+        <div class="col-sm-3">
+          <h6>About</h6>
+          <ul class="footer-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="course.html">Course</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h6>Social media</h6>
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class=" fa-2x fa-brands fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa-2x fa-brands fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa-2x fa-regular fa-envelope"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa-2x fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Detail</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!--navigation bar-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!-- Brand -->
+    <a id="centerName" class="navbar-brand" href="home.html">ABC Learning Center</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="course.html">Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br><br>
+  <!--course detail-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Document</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section4">Learning Journey</a>
+      </li>
+    </ul>
+  </nav><br>
+  <h1 style="text-align: center;">Java</h1>
+  <!--Intro-->
+  <div class="container" id="section1">
+    <div class="row">
+      <div class="col-sm-8">
+        <div id="t1">
+          <ul>
+            <li><a href="#s1">Intro</a></li>
+            <li><a href="#s2">History</a></li>
+            <li><a href="#s3">Principle</a></li>
+
+          </ul>
+
+          <p id="s1"></p>
+          <p id="s2"></p>
+
+          <ol id="s3">
+            <li>It must be simple, object-oriented, and familiar.</li>
+            <li>It must be robust and secure.</li>
+            <li>It must be architecture-neutral and portable</li>
+            <li>It must execute with high performance.</li>
+            <li>It must be interpreted, threaded, and dynamic.</li>
+          </ol>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h5><u>Price</u></h5>
+        <div class="card">
+          <img class="card-img-top" src="java.jpeg" alt="default" width="100%">
+          <div class="card-body">
+            <h4 class="card-title">JAVA</h4>
+            <hr>
+            <p class="card-text"><i class="fa-solid fa-coins"></i> <b>Course Price: </b>300 USD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div><br>
+  <!--document-->
+  <div class="container" id="section2">
+    <h5><u>Document</u></h5><br>
+    <center>
+      <iframe src="IU6-Content.pdf">
+      </iframe>
+    </center>
+    <br>
+    <hr>
+  </div>
+  <!--
+      <div class="container-fluid">
+    <h5><u>Document</u></h5><br>
+    <div class="docIframeContainer">
+      <iframe src="IU6-Content.pdf" class="responsiveDocIframe"></iframe>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 offset-2">
+        <div class="docIframeContainer">
+          <iframe src="IU6-Content.pdf" class="responsiveDocIframe"></iframe>
+        </div>
+      </div>
+    </div>-->
+
+  <br>
+  </div>
+  <!--vedio-->
+  <div class="container" id="section3">
+    <h5><u>Video</u></h5><br>
+    <center><iframe id="video" src="//www.youtube.com/embed/mAtkPQO1FcA" frameborder="0" allowfullscreen></iframe>
+    </center>
+    <hr>
+  </div><br>
+  <div class="container" id="section4">
+    <h5><u>Learning Journey</u></h5><br>
+    <center>
+      <iframe src="BDSE_learning journey_V3.0.pdf">
+      </iframe>
+    </center>
+    <br>
+  </div>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h6>ABC Learning Center</h6>
+          <p class="text-justify" style="font-size: small;">Learn Programming for future.</p>
+        </div>
+        <div class="col-sm-3">
+          <h6>About</h6>
+          <ul class="footer-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="course.html">Course</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h6>Social media</h6>
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class=" fa-2x fa-brands fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa-2x fa-brands fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa-2x fa-regular fa-envelope"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa-2x fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var s1 = "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub, [citation not found]particularly for client–server web applications, with a reported 9 million developers."
+    var s2 = "James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June1991. Java was originally designed for interactive television, but it was too advanced for the digital cable television industry at the time The language was initially called Oak after an oak tree that stood outside Gosling's office. Later the project went by the name Green and was finally renamed Java, from Java coffee, a type of coffee from Indonesia. Gosling designed Java with a C/C++-style syntax that system and application programmers would find familiar."
+
+    $(document).ready(function () {
+      $("#t1").tabs();
+      $("#s1").text(s1);
+      $("#s2").text(s2);
+    });
+  </script>
+</body>
+
+</html>
